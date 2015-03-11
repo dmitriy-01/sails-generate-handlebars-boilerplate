@@ -30,7 +30,8 @@
     "lodash": ">=2.4.x",
     "merge-defaults": ">=0.1.0",
     "replace": "^0.3.0",
-    "sails-generate-auth": "^0.2.0"
+    "sails-generate-auth": "^0.2.0",
+    "sails-mongo": "^0.10.5"
   },
   "devDependencies": {
     "sails-generate": "*",
