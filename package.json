@@ -1,0 +1,45 @@
+{
+  "name": "sails-generate-handlebars-boilerplate",
+  "version": "0.1.0",
+  "description": "Sails.js boilerplate generator with Handlebars and Bootstrap",
+  "main": "Generator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websquared/sails-generate-handlebars-boilerplate.git"
+  },
+  "bugs": {
+    "email": "support@websquared.ca",
+    "url": "https://github.com/websquared/sails-generate-handlebars-boilerplate/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "handlebars-boilerplate",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Websquared.ca <support@websquared.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-handlebars": "^0.9.3",
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "replace": "^0.3.0",
+    "sails-generate-auth": "^0.2.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "handlebars-boilerplate",
+    "behavior": "overrides `sails generate handlebars-boilerplate`",
+    "sailsVersion": "~0.10.0"
+  }
+}

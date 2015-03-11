@@ -1,0 +1,48 @@
+{
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "bootstrap": "3.2.0",
+    "handlebars": "~2.0.0",
+    "font-awesome": "~4.2.0",
+    "history": "git://github.com/browserstate/history.js.git#~1.8.0",
+    "URIjs": "~1.14.1",
+    "is-loading": "v1.0.4"
+  },
+  "name": "my-app",
+  "version": "0.0.0",
+  "author": "me",
+  "private": true,
+  "exportsOverride": {
+    "handlebars": {
+      "js": "handlebars.js"
+    },
+    "jquery": {
+      "js": "**/jquery.min.*"
+    },
+    "bootstrap": {
+      "js": "dist/js/bootstrap.min.js",
+      "fonts": "dist/fonts/*",
+      "css": "dist/css/bootstrap.min.css"
+    },
+    "font-awesome": {
+      "fonts": "fonts/*",
+      "css": "css/font-awesome.min.css"
+    },
+    "history": {
+      "js": "scripts/bundled/html4+html5/jquery.history.js"
+    },
+    "URIjs": {
+      "js": "src/URI.min.js"
+    },
+    "is-loading": {
+      "js": "jquery.isloading.js"
+    }
+  }
+}
